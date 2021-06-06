@@ -1,7 +1,14 @@
 # iProduct
 
  ## Description
+ This is an API created to hold data for an online merchant. This API allows users to GET PUT POST and DELETE items. The database uses associations to link Tags to Products, and Products to Categories. The database also contains a ProductTags model to hold meta data about which product belongs to which category etc.
+  
+  ![GET Categories](./Assets/categories.PNG)
+  ![POST Tag](./Assets/createTag.PNG)
 
+  Watch the demo:
+  [PART 1](https://www.youtube.com/watch?v=_btU5fJD9H4)
+  [PART 2](https://www.youtube.com/watch?v=sjoSOcJXn_4)
 
  ## Getting Started:
 
@@ -9,7 +16,7 @@ If you want to edit this app you must have a Github account, have downloaded Nod
 
 - Create a Github account here: [Github](https://github.com/)
 - Download Visual Studio here: [Visual Studio](https://code.visualstudio.com/download/)
-- Download Node.js: [Node.js](https://nodejs.org/en/download/https://nodejs.org/en/download/)
+- Download Node.js: [Node.js](https://nodejs.org/en/)
 - Repository link: [iProduct Repo](https://github.com/scottgeleas/iProduct)
 
  ### Authors:
@@ -21,7 +28,8 @@ If you want to edit this app you must have a Github account, have downloaded Nod
 - Javascript
 - Node.js
 - Express.js
-- Visual Studio Code
+- Sequelize
+- MySQL Server- Visual Studio Code
 
  ### Acknowledgments:
 
